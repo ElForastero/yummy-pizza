@@ -1,0 +1,9 @@
+.root {
+  padding: var(--s4);
+  border-radius: var(--r2);
+  transition: box-shadow 300ms ease-in-out;
+}
+
+.root:hover {
+  box-shadow: var(--shadow-xl);
+}

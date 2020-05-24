@@ -1,6 +1,10 @@
 import React from 'react';
-import s from './Common.module.css';
+import { Footer } from 'src/components/molecules/Footer';
+import { Layout } from 'src/components/atoms/Layout';
 
-export const Common: React.FC = ({ children }) => {
-  return <div className={s.root}>{children}</div>;
-};
+export const Common: React.FC = ({ children }) => (
+  <Layout>
+    {children}
+    <Footer />
+  </Layout>
+);

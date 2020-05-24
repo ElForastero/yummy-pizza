@@ -1,0 +1,6 @@
+:root {
+  --layer-1: 10;
+  --layer-2: 11;
+  --layer-3: 12; /* Overlay and other things */
+  --layer-4: 13; /* Typically things over overlay */
+}

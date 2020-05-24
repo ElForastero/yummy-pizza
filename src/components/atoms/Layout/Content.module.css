@@ -1,0 +1,12 @@
+.root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .root {
+    padding-left: var(--s5);
+    padding-right: var(--s5);
+  }
+}

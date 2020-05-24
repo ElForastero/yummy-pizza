@@ -1,0 +1,34 @@
+.root {
+  border-radius: var(--r2);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+
+.md {
+  height: 40px;
+  padding-left: var(--s3);
+  padding-right: var(--s3);
+}
+
+.primary {
+  background-color: var(--primary-600);
+  color: var(--neutral-0);
+}
+
+.primary:hover {
+  background-color: var(--primary-500);
+}
+
+.secondary {
+  background-color: transparent;
+  border: 1px solid var(--primary-600);
+  color: var(--primary-700);
+}
+
+.secondary:hover {
+  background-color: transparent;
+  border-color: var(--primary-500);
+  color: var(--primary-600);
+}

@@ -1,0 +1,28 @@
+.cover {
+  width: 100%;
+  height: 200px;
+  border-radius: var(--r2);
+  object-fit: contain;
+  margin-bottom: var(--s3);
+}
+
+.title {
+  font-size: 1.2em;
+  margin-bottom: var(--s3);
+}
+
+.description {
+  color: var(--neutral-600);
+  font-size: 0.9em;
+  margin-bottom: var(--s6);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+}

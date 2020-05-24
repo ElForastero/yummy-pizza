@@ -1,0 +1,24 @@
+.root {
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding-top: var(--s3);
+  padding-bottom: var(--s3);
+  margin-bottom: var(--s3);
+  background-color: var(--neutral-0);
+  transition: box-shadow 200ms ease-in-out;
+}
+
+.withShadow {
+  box-shadow: var(--shadow-xl);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle > *:not(:last-child) {
+  margin-right: var(--s8);
+}
