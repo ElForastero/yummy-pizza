@@ -1,0 +1,25 @@
+overwrite: true
+schema: "src/api/schema.client.graphql"
+documents: "src/api/**/*.graphql"
+generates:
+  src/api/graphql.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-resolvers"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+    config:
+      # avoid using TypeScript optionals (?)
+      avoidOptionals: true
+      # wrap default types with Partial
+      defaultMapper: Partial<{T}>
+      # apollo configuration
+      reactApolloVersion: 3
+      # apolloReactCommonImportFrom: "@apollo/react-common"
+      # apolloReactHooksImportFrom: "@apollo/react-hooks"
+      withHooks: true
+      withResultType: true
+      withHOC: false
+      withComponent: false
+      scalars:
+        JSON: "{ [key: string]: any }"
