@@ -20,11 +20,8 @@ export const TopNavigation: React.FC = () => {
     <nav className={c({ [s.root]: true, [s.withShadow]: sticky })}>
       <Content className={s.content}>
         <Logo />
-        <span className={s.middle}>
-          <a href="/">8 800 232 23 32</a>
-          <a href="/">Delivery</a>
-        </span>
-        <span>
+        <span className={s.right}>
+          <a href="tel:8 800 232 23 32">8 800 232 23 32</a>
           <Button color="primary">My Order</Button>
         </span>
       </Content>

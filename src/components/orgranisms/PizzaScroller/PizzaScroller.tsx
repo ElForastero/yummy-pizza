@@ -1,21 +1,32 @@
 import React from 'react';
-import { Content } from 'src/components/atoms/Layout';
 import { times } from 'ramda';
-import { PizzaCard } from 'src/components/orgranisms/PizzaCard';
+import { Content } from 'src/components/atoms/Layout';
+import { useProductsQuery } from 'src/api/graphql';
+import {
+  PizzaCard,
+  PizzaCardSkeleton,
+} from 'src/components/orgranisms/PizzaCard';
 import s from './PizzaScroller.module.css';
 
-export const PizzaScroller: React.FC = () => (
-  <Content className={s.root}>
-    {times(
-      i => (
-        <PizzaCard
-          key={i}
-          cover={`/assets/covers/${++i}.jpg`}
-          title="My Yummy Pizza"
-          description="Картофель из печи, соленые огурчики, цыпленок, соус ранч, томаты, красный лук, чеснок, моцарелла, томатный соус"
-        />
-      ),
-      8
-    )}
-  </Content>
-);
+const PRODUCTS_PER_PAGE = 8;
+
+export const PizzaScroller: React.FC = () => {
+  const { loading, data } = useProductsQuery();
+
+  return (
+    <Content className={s.root}>
+      {loading && times(i => <PizzaCardSkeleton key={i} />, PRODUCTS_PER_PAGE)}
+
+      {!loading &&
+        data?.products?.map(({ id, title, description, price, cover }) => (
+          <PizzaCard
+            key={id}
+            title={title}
+            description={description}
+            price={price}
+            cover={cover}
+          />
+        ))}
+    </Content>
+  );
+};

@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r2);
+  background-color: transparent;
+  color: var(--neutral-500);
+  padding: var(--s2);
+  cursor: pointer;
+}
+
+.root:hover {
+  background-color: var(--neutral-100);
+  color: var(--neutral-800);
+}
+
+.root:active {
+  background-color: var(--neutral-200);
+  color: var(--neutral-800);
+}

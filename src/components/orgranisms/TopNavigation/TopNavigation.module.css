@@ -19,6 +19,6 @@
   align-items: center;
 }
 
-.middle > *:not(:last-child) {
+.right > *:not(:last-child) {
   margin-right: var(--s8);
 }

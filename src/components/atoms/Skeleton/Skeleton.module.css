@@ -1,0 +1,41 @@
+.root {
+  background: linear-gradient(
+    -90deg,
+    var(--neutral-200) 0%,
+    var(--neutral-0) 50%,
+    var(--neutral-200) 100%
+  );
+  background-size: 400% 400%;
+  animation: pulse 1.2s ease-in-out infinite;
+  border-radius: var(--r1);
+}
+
+@keyframes pulse {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+.line {
+  width: 5.5em;
+  height: 1em;
+}
+
+.line ~ .line {
+  margin-top: 4px;
+}
+
+.line::before {
+  content: '\00a0';
+}
+
+.fluid {
+  width: 100%;
+}
+
+.block {
+  display: block;
+}

@@ -1,31 +1,47 @@
 import React from 'react';
+import { useToggle } from 'src/hooks/useToggle';
 import { Card } from 'src/components/atoms/Card';
 import { Button } from 'src/components/atoms/Button';
+import { Dialog } from 'src/components/molecules/Dialog';
 import s from './PizzaCard.module.css';
 
 type Props = {
-  // Image URL
-  cover?: string;
+  cover: Maybe<string>;
   title: string;
   description: string;
+  price: number;
 };
 
-const DEFAULT_PIZZA_COVER = 'https://picsum.photos/500/500.webp';
+export const DEFAULT_PIZZA_COVER = '/assets/covers/default.svg';
 
-export const PizzaCard: React.FC<Props> = ({ cover, title, description }) => {
+export const PizzaCard: React.FC<Props> = ({
+  cover,
+  title,
+  description,
+  price,
+}) => {
+  const { value, on, off } = useToggle(false);
+
   return (
-    <Card>
-      <img
-        className={s.cover}
-        src={cover ? cover : DEFAULT_PIZZA_COVER}
-        alt={title}
-      />
+    <Card className={s.root}>
+      <div className={s.coverWrapper}>
+        <img
+          className={s.cover}
+          src={cover ? cover : DEFAULT_PIZZA_COVER}
+          alt={title}
+        />
+      </div>
       <div className={s.title}>{title}</div>
       <div className={s.description}>{description}</div>
       <div className={s.meta}>
-        <span className={s.price}>800 €</span>
-        <Button color="secondary">Yep, this one</Button>
+        <span className={s.price}>{price.toFixed(2)}</span>
+        <Button color="secondary" onClick={on}>
+          Yep, this one
+        </Button>
       </div>
+      <Dialog label={title} isOpen={value} onDismiss={off}>
+        {description}
+      </Dialog>
     </Card>
   );
 };

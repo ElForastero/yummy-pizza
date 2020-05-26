@@ -12,11 +12,12 @@ generates:
       # avoid using TypeScript optionals (?)
       avoidOptionals: true
       # wrap default types with Partial
-      defaultMapper: Partial<{T}>
+      # defaultMapper: Partial<{T}>
       # apollo configuration
       reactApolloVersion: 3
       # apolloReactCommonImportFrom: "@apollo/react-common"
       # apolloReactHooksImportFrom: "@apollo/react-hooks"
+      # gqlImport: "graphql.macro"
       withHooks: true
       withResultType: true
       withHOC: false

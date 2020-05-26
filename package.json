@@ -4,6 +4,7 @@
     "private": true,
     "dependencies": {
         "@apollo/client": "^3.0.0-beta.50",
+        "@reach/dialog": "^0.10.3",
         "@reach/skip-nav": "^0.10.3",
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
@@ -20,6 +21,7 @@
         "react-router": "^6.0.0-alpha.5",
         "react-router-dom": "^6.0.0-alpha.5",
         "react-scripts": "3.4.1",
+        "react-spring": "^9.0.0-rc.3",
         "typescript": "~3.7.2"
     },
     "scripts": {
@@ -27,6 +29,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
+        "codegen": "graphql-codegen --config codegen.yml",
         "commit": "git-cz"
     },
     "eslintConfig": {
@@ -45,8 +48,14 @@
         ]
     },
     "devDependencies": {
+        "@graphql-codegen/cli": "^1.15.0",
+        "@graphql-codegen/typescript": "^1.15.0",
+        "@graphql-codegen/typescript-operations": "^1.15.0",
+        "@graphql-codegen/typescript-react-apollo": "^1.15.0",
+        "@graphql-codegen/typescript-resolvers": "^1.15.0",
         "@types/ramda": "^0.27.6",
         "graphql": "^15.0.0",
+        "graphql.macro": "^1.4.2",
         "husky": "^4.2.5",
         "lint-staged": "^10.2.6",
         "prettier": "^2.0.5"

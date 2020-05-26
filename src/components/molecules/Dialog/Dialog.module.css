@@ -1,0 +1,52 @@
+:root {
+  --reach-dialog: 1;
+}
+
+[data-reach-dialog-overlay] {
+  background: rgba(16, 42, 67, 0.2);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+[data-reach-dialog-content] {
+  width: 40vw;
+  margin: 10vh auto;
+  background: var(--neutral-0);
+  box-shadow: var(--shadow-2xl);
+  padding: 1rem 2rem 2rem 2rem;
+  outline: none;
+  border-radius: var(--r1);
+}
+
+[data-reach-alert-dialog-label] {
+  font-weight: 600;
+  margin-bottom: var(--s3);
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--s5);
+}
+
+.buttons > *:not(:last-child) {
+  margin-right: var(--s3);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: var(--s5);
+}
+
+.closeControl {
+  border: none;
+  margin-right: 5px;
+  margin-top: 5px;
+}
