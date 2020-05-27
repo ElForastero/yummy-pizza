@@ -1,0 +1,56 @@
+.root {
+  display: flex;
+  margin-bottom: var(--s6);
+  justify-content: space-between;
+}
+
+.cover {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.s {
+  height: 150px;
+}
+
+.m {
+  height: 170px;
+}
+
+.l {
+  height: 190px;
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.options > *:not(:last-child) {
+  margin-bottom: var(--s3);
+}
+
+.option {
+  display: block;
+  width: 100%;
+  border-radius: var(--r2);
+  padding: var(--s2) var(--s5);
+  cursor: pointer;
+  border: 1px solid var(--primary-500);
+  font-weight: 600;
+  font-size: var(--fs2);
+  color: var(--primary-700);
+}
+
+.active {
+  background-color: var(--primary-500);
+  color: var(--neutral-0);
+  border-color: var(--primary-500);
+}
+
+.control {
+  margin-top: var(--s6);
+}

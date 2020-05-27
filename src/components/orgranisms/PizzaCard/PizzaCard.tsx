@@ -3,6 +3,7 @@ import { useToggle } from 'src/hooks/useToggle';
 import { Card } from 'src/components/atoms/Card';
 import { Button } from 'src/components/atoms/Button';
 import { Dialog } from 'src/components/molecules/Dialog';
+import { Configurator } from 'src/components/orgranisms/Configurator';
 import s from './PizzaCard.module.css';
 
 type Props = {
@@ -34,12 +35,13 @@ export const PizzaCard: React.FC<Props> = ({
       <div className={s.title}>{title}</div>
       <div className={s.description}>{description}</div>
       <div className={s.meta}>
-        <span className={s.price}>{price.toFixed(2)}</span>
+        <span className={s.price}>from {price.toFixed(2)} €</span>
         <Button color="secondary" onClick={on}>
           Yep, this one
         </Button>
       </div>
       <Dialog label={title} isOpen={value} onDismiss={off}>
+        <Configurator cover={cover} />
         {description}
       </Dialog>
     </Card>

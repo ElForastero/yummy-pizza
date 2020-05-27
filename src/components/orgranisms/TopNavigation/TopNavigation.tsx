@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Content } from 'src/components/atoms/Layout';
 import { Logo } from 'src/components/atoms/Logo';
 import { Button } from 'src/components/atoms/Button';
@@ -22,7 +23,9 @@ export const TopNavigation: React.FC = () => {
         <Logo />
         <span className={s.right}>
           <a href="tel:8 800 232 23 32">8 800 232 23 32</a>
-          <Button color="primary">My Order</Button>
+          <Link to="/basket">
+            <Button color="primary">My Order</Button>
+          </Link>
         </span>
       </Content>
     </nav>

@@ -14,9 +14,10 @@ export const Button: React.FC<Props> = ({
   children,
   size = 'md',
   color = 'primary',
+  className,
   ...props
 }) => (
-  <button className={c([s.root, s[size], s[color]])} {...props}>
+  <button className={c([s.root, s[size], s[color], className])} {...props}>
     {children}
   </button>
 );

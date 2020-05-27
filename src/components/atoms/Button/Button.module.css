@@ -1,12 +1,22 @@
 .root {
+  display: inline-flex;
   border-radius: var(--r2);
   border: none;
   cursor: pointer;
   font-weight: 600;
   transition: all 200ms ease-in-out;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sm {
+  height: 35px;
+  padding-left: var(--s2);
+  padding-right: var(--s2);
 }
 
 .md {
+  font-size: 0.9em;
   height: 40px;
   padding-left: var(--s3);
   padding-right: var(--s3);

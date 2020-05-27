@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  font-weight: 600;
+  padding-left: var(--s3);
+  padding-right: var(--s3);
+}
