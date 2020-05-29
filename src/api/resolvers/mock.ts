@@ -1,3 +1,5 @@
+import { homepage } from 'src/../package.json';
+
 export const PRODUCTS = [
   {
     id: '1',
@@ -8,7 +10,7 @@ export const PRODUCTS = [
       { size: 'M', EUR: 13.0, USD: 15.0 },
       { size: 'L', EUR: 15.0, USD: 18.0 },
     ],
-    cover: '/assets/covers/1.jpg',
+    cover: `${homepage}/assets/covers/1.jpg`,
   },
   {
     id: '2',
@@ -20,7 +22,7 @@ export const PRODUCTS = [
       { size: 'M', EUR: 15.0, USD: 17.0 },
       { size: 'L', EUR: 17.0, USD: 19.5 },
     ],
-    cover: '/assets/covers/2.jpg',
+    cover: `${homepage}/assets/covers/2.jpg`,
   },
   {
     id: '3',
@@ -32,7 +34,7 @@ export const PRODUCTS = [
       { size: 'M', EUR: 14.5, USD: 18.0 },
       { size: 'L', EUR: 18.0, USD: 22.0 },
     ],
-    cover: '/assets/covers/3.jpg',
+    cover: `${homepage}/assets/covers/3.jpg`,
   },
   {
     id: '4',
@@ -44,7 +46,7 @@ export const PRODUCTS = [
       { size: 'M', EUR: 12.0, USD: 14.0 },
       { size: 'L', EUR: 14.0, USD: 16.0 },
     ],
-    cover: '/assets/covers/4.jpg',
+    cover: `${homepage}/assets/covers/4.jpg`,
   },
   {
     id: '5',
@@ -56,7 +58,7 @@ export const PRODUCTS = [
       { size: 'M', EUR: 15.0, USD: 18.0 },
       { size: 'L', EUR: 17.5, USD: 121.0 },
     ],
-    cover: '/assets/covers/5.jpg',
+    cover: `${homepage}/assets/covers/5.jpg`,
   },
   {
     id: '6',
@@ -68,7 +70,7 @@ export const PRODUCTS = [
       { size: 'M', EUR: 13.0, USD: 15.0 },
       { size: 'L', EUR: 15.0, USD: 17.0 },
     ],
-    cover: '/assets/covers/6.jpg',
+    cover: `${homepage}/assets/covers/6.jpg`,
   },
   {
     id: '7',
@@ -80,7 +82,7 @@ export const PRODUCTS = [
       { size: 'M', EUR: 15.0, USD: 19.0 },
       { size: 'L', EUR: 18.0, USD: 21.0 },
     ],
-    cover: '/assets/covers/7.jpg',
+    cover: `${homepage}/assets/covers/7.jpg`,
   },
   {
     id: '8',
@@ -91,7 +93,7 @@ export const PRODUCTS = [
       { size: 'M', EUR: 14.0, USD: 17.0 },
       { size: 'L', EUR: 17.0, USD: 19.9 },
     ],
-    cover: '/assets/covers/8.jpg',
+    cover: `${homepage}/assets/covers/8.jpg`,
   },
 ];
 

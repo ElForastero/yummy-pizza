@@ -1,3 +1,5 @@
+import { homepage } from '../../package.json';
+
 /**
  * All available currencies in ISO
  */
@@ -9,7 +11,7 @@ export enum Currencies {
 /**
  * The cover to be shown while product doesn't have one
  */
-export const DEFAULT_PRODUCT_COVER = '/assets/covers/default.svg';
+export const DEFAULT_PRODUCT_COVER = `${homepage}/assets/covers/default.svg`;
 
 /**
  * @todo should be present on backend
