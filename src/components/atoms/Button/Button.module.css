@@ -1,5 +1,6 @@
 .root {
   display: inline-flex;
+  justify-content: center;
   border-radius: var(--r2);
   border: none;
   cursor: pointer;
@@ -41,4 +42,17 @@
   background-color: transparent;
   border-color: var(--primary-500);
   color: var(--primary-600);
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.startIcon {
+  margin-right: var(--s3);
+}
+
+.endIcon {
+  margin-left: var(--s3);
 }

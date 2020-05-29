@@ -1,4 +1,24 @@
 .root {
+  display: flex;
+  flex-flow: column nowrap;
   width: 600px;
   margin: 0 auto;
+}
+
+.list {
+  margin-bottom: var(--s5);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--s5);
+}
+
+.rightAction {
+  margin-left: auto;
+}
+
+.total {
+  font-weight: 600;
 }

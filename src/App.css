@@ -10,9 +10,18 @@
   box-sizing: border-box;
 }
 
-html,
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
+}
+
+#root {
   min-height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 body {
@@ -25,7 +34,9 @@ body {
 }
 
 a:focus,
-button:focus {
+button:focus,
+input:focus,
+textarea:focus {
   outline: none;
   box-shadow: var(--shadow-outline);
   transition: box-shadow 200ms ease;

@@ -1,0 +1,8 @@
+.root {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.root > *:not(:last-child) {
+  margin-bottom: var(--s3);
+}

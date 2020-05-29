@@ -1,9 +1,12 @@
 .root {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--neutral-200);
   padding-top: var(--s3);
   padding-bottom: var(--s3);
+}
+
+.root:not(:last-child) {
+  border-bottom: 1px solid var(--neutral-200);
 }
 
 .root > *:not(:last-child) {
@@ -24,6 +27,7 @@
 
 .title {
   font-weight: 600;
+  margin-bottom: var(--s1);
 }
 
 .description {
@@ -32,6 +36,14 @@
 }
 
 .price {
+  display: flex;
+  flex-flow: column nowrap;
   width: 100px;
+  text-align: right;
+}
+
+.subPrice {
+  color: var(--neutral-500);
+  font-size: 0.8em;
   text-align: right;
 }

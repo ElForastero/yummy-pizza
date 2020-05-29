@@ -1,9 +1,14 @@
+# Get all products
 query products {
   products @client {
     id
     title
     description
-    price
     cover
+    prices {
+      size
+      EUR
+      USD
+    }
   }
 }

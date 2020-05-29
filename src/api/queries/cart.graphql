@@ -1,0 +1,18 @@
+# Get all cart items
+query cart {
+  cart @client {
+    id
+    product {
+      id
+      title
+      cover
+      prices {
+        size
+        EUR
+        USD
+      }
+    }
+    size
+    count
+  }
+}

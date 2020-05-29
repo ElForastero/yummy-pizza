@@ -3,7 +3,11 @@ export const PRODUCTS = [
     id: '1',
     title: 'Pepperoni',
     description: 'Double pepperoni, mozzarella, marinara sauce, fresh basil',
-    price: 11.0,
+    prices: [
+      { size: 'S', EUR: 11.0, USD: 13.0 },
+      { size: 'M', EUR: 13.0, USD: 15.0 },
+      { size: 'L', EUR: 15.0, USD: 18.0 },
+    ],
     cover: '/assets/covers/1.jpg',
   },
   {
@@ -11,7 +15,11 @@ export const PRODUCTS = [
     title: 'From Russia with Love',
     description:
       'Fries, ranch , grilled chicken, marinara sauce, red onions, pickles , mozzarella',
-    price: 13.0,
+    prices: [
+      { size: 'S', EUR: 13.0, USD: 15.0 },
+      { size: 'M', EUR: 15.0, USD: 17.0 },
+      { size: 'L', EUR: 17.0, USD: 19.5 },
+    ],
     cover: '/assets/covers/2.jpg',
   },
   {
@@ -19,7 +27,11 @@ export const PRODUCTS = [
     title: 'Chicken BBQ',
     description:
       'Grilled chicken, bbq sauce, bacon, mozzarella, fresh basil, red onions',
-    price: 13.0,
+    prices: [
+      { size: 'S', EUR: 11.0, USD: 13.0 },
+      { size: 'M', EUR: 14.5, USD: 18.0 },
+      { size: 'L', EUR: 18.0, USD: 22.0 },
+    ],
     cover: '/assets/covers/3.jpg',
   },
   {
@@ -27,7 +39,11 @@ export const PRODUCTS = [
     title: 'Hawaiian',
     description:
       'Ham, fresh pineapple, mozzarella, marinara sauce, fresh basil',
-    price: 13.0,
+    prices: [
+      { size: 'S', EUR: 10.0, USD: 12.0 },
+      { size: 'M', EUR: 12.0, USD: 14.0 },
+      { size: 'L', EUR: 14.0, USD: 16.0 },
+    ],
     cover: '/assets/covers/4.jpg',
   },
   {
@@ -35,7 +51,11 @@ export const PRODUCTS = [
     title: 'Spinach Feta',
     description:
       'Fresh spinach, feta, ricotta, mozzarella, fresh parsley, red onions',
-    price: 11.0,
+    prices: [
+      { size: 'S', EUR: 11.0, USD: 13.0 },
+      { size: 'M', EUR: 15.0, USD: 18.0 },
+      { size: 'L', EUR: 17.5, USD: 121.0 },
+    ],
     cover: '/assets/covers/5.jpg',
   },
   {
@@ -43,7 +63,11 @@ export const PRODUCTS = [
     title: 'Veggie',
     description:
       'Green peppers, cherry tomatoes, mozzarella, ricotta, fresh parsley, mushrooms, black olives, red onions',
-    price: 13.0,
+    prices: [
+      { size: 'S', EUR: 11.0, USD: 13.0 },
+      { size: 'M', EUR: 13.0, USD: 15.0 },
+      { size: 'L', EUR: 15.0, USD: 17.0 },
+    ],
     cover: '/assets/covers/6.jpg',
   },
   {
@@ -51,14 +75,40 @@ export const PRODUCTS = [
     title: 'Chicken Club',
     description:
       'Grilled chicken, cherry tomatoes, ricotta, fresh parsley, mozzarella, bacon, red onions',
-    price: 13.0,
+    prices: [
+      { size: 'S', EUR: 12.0, USD: 15.0 },
+      { size: 'M', EUR: 15.0, USD: 19.0 },
+      { size: 'L', EUR: 18.0, USD: 21.0 },
+    ],
     cover: '/assets/covers/7.jpg',
   },
   {
     id: '8',
     title: 'Cheese',
     description: 'Mozzarella, marinara sauce, fresh basil',
-    price: 9.0,
+    prices: [
+      { size: 'S', EUR: 11.9, USD: 15.0 },
+      { size: 'M', EUR: 14.0, USD: 17.0 },
+      { size: 'L', EUR: 17.0, USD: 19.9 },
+    ],
     cover: '/assets/covers/8.jpg',
+  },
+];
+
+/**
+ * @todo Identifiers should be handled on backend
+ */
+export const CART = [
+  {
+    id: `${PRODUCTS[0].id}-M`,
+    product: PRODUCTS[0],
+    size: 'M',
+    count: 1,
+  },
+  {
+    id: `${PRODUCTS[7].id}-S`,
+    product: PRODUCTS[7],
+    size: 'S',
+    count: 2,
   },
 ];

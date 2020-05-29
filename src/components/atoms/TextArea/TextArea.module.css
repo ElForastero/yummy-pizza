@@ -1,0 +1,11 @@
+.root {
+  height: 100px;
+  padding: var(--s2) var(--s3);
+  border: 1px solid var(--neutral-300);
+  border-radius: var(--r2);
+  background-color: transparent;
+}
+
+.root::placeholder {
+  color: var(--neutral-500);
+}

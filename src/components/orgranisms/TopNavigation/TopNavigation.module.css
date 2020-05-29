@@ -2,6 +2,8 @@
   position: sticky;
   top: 0;
   display: flex;
+  box-sizing: content-box;
+  height: 40px;
   padding-top: var(--s3);
   padding-bottom: var(--s3);
   margin-bottom: var(--s3);
@@ -21,4 +23,12 @@
 
 .right > *:not(:last-child) {
   margin-right: var(--s8);
+}
+
+.basket {
+  display: inline-block;
+}
+
+.basket:hover {
+  text-decoration: none;
 }

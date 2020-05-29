@@ -6,6 +6,7 @@ import {
   PizzaCard,
   PizzaCardSkeleton,
 } from 'src/components/orgranisms/PizzaCard';
+import { Currencies } from 'src/config';
 import s from './PizzaScroller.module.css';
 
 const PRODUCTS_PER_PAGE = 8;
@@ -18,12 +19,14 @@ export const PizzaScroller: React.FC = () => {
       {loading && times(i => <PizzaCardSkeleton key={i} />, PRODUCTS_PER_PAGE)}
 
       {!loading &&
-        data?.products?.map(({ id, title, description, price, cover }) => (
+        data?.products?.map(({ id, title, description, prices, cover }) => (
           <PizzaCard
             key={id}
+            id={id}
             title={title}
             description={description}
-            price={price}
+            prices={prices}
+            currency={Currencies.EUR}
             cover={cover}
           />
         ))}

@@ -1,0 +1,21 @@
+mutation addToCart($id: ID!, $size: Size!, $count: Int!) {
+  addToCart(id: $id, size: $size, count: $count) @client {
+    id
+    product {
+      id
+    }
+    size
+    count
+  }
+}
+
+mutation removeFromCart($id: ID!) {
+  removeFromCart(id: $id) @client {
+    id
+    product {
+      id
+    }
+    size
+    count
+  }
+}
