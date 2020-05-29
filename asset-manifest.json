@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/yummy-pizza/static/css/main.37423c68.chunk.css",
-    "main.js": "/yummy-pizza/static/js/main.81dbcd58.chunk.js",
-    "main.js.map": "/yummy-pizza/static/js/main.81dbcd58.chunk.js.map",
-    "runtime-main.js": "/yummy-pizza/static/js/runtime-main.19eaf18b.js",
-    "runtime-main.js.map": "/yummy-pizza/static/js/runtime-main.19eaf18b.js.map",
+    "main.js": "/yummy-pizza/static/js/main.a74187bc.chunk.js",
+    "main.js.map": "/yummy-pizza/static/js/main.a74187bc.chunk.js.map",
+    "runtime-main.js": "/yummy-pizza/static/js/runtime-main.2a0522c7.js",
+    "runtime-main.js.map": "/yummy-pizza/static/js/runtime-main.2a0522c7.js.map",
     "static/css/2.3c76a222.chunk.css": "/yummy-pizza/static/css/2.3c76a222.chunk.css",
-    "static/js/2.896a55a9.chunk.js": "/yummy-pizza/static/js/2.896a55a9.chunk.js",
-    "static/js/2.896a55a9.chunk.js.map": "/yummy-pizza/static/js/2.896a55a9.chunk.js.map",
+    "static/js/2.ecc2de72.chunk.js": "/yummy-pizza/static/js/2.ecc2de72.chunk.js",
+    "static/js/2.ecc2de72.chunk.js.map": "/yummy-pizza/static/js/2.ecc2de72.chunk.js.map",
     "static/css/3.544f84a7.chunk.css": "/yummy-pizza/static/css/3.544f84a7.chunk.css",
-    "static/js/3.128abec8.chunk.js": "/yummy-pizza/static/js/3.128abec8.chunk.js",
-    "static/js/3.128abec8.chunk.js.map": "/yummy-pizza/static/js/3.128abec8.chunk.js.map",
+    "static/js/3.0f0bb875.chunk.js": "/yummy-pizza/static/js/3.0f0bb875.chunk.js",
+    "static/js/3.0f0bb875.chunk.js.map": "/yummy-pizza/static/js/3.0f0bb875.chunk.js.map",
     "index.html": "/yummy-pizza/index.html",
-    "precache-manifest.569aa2ca78366276d54a515b65980752.js": "/yummy-pizza/precache-manifest.569aa2ca78366276d54a515b65980752.js",
+    "precache-manifest.542f35050bda99cfad0fa7e03892cb40.js": "/yummy-pizza/precache-manifest.542f35050bda99cfad0fa7e03892cb40.js",
     "service-worker.js": "/yummy-pizza/service-worker.js",
     "static/css/2.3c76a222.chunk.css.map": "/yummy-pizza/static/css/2.3c76a222.chunk.css.map",
     "static/css/3.544f84a7.chunk.css.map": "/yummy-pizza/static/css/3.544f84a7.chunk.css.map",
     "static/css/main.37423c68.chunk.css.map": "/yummy-pizza/static/css/main.37423c68.chunk.css.map",
-    "static/js/2.896a55a9.chunk.js.LICENSE.txt": "/yummy-pizza/static/js/2.896a55a9.chunk.js.LICENSE.txt",
+    "static/js/2.ecc2de72.chunk.js.LICENSE.txt": "/yummy-pizza/static/js/2.ecc2de72.chunk.js.LICENSE.txt",
     "static/media/arrow-left.07600dd9.svg": "/yummy-pizza/static/media/arrow-left.07600dd9.svg",
     "static/media/arrow-right.62ed779e.svg": "/yummy-pizza/static/media/arrow-right.62ed779e.svg",
     "static/media/minus.9661ba0b.svg": "/yummy-pizza/static/media/minus.9661ba0b.svg",
@@ -29,10 +29,10 @@
     "static/media/x-circle.c89cb7d9.svg": "/yummy-pizza/static/media/x-circle.c89cb7d9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19eaf18b.js",
+    "static/js/runtime-main.2a0522c7.js",
     "static/css/2.3c76a222.chunk.css",
-    "static/js/2.896a55a9.chunk.js",
+    "static/js/2.ecc2de72.chunk.js",
     "static/css/main.37423c68.chunk.css",
-    "static/js/main.81dbcd58.chunk.js"
+    "static/js/main.a74187bc.chunk.js"
   ]
 }
