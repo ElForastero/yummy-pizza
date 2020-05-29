@@ -20,6 +20,8 @@ It doesn't have any backend. All the queries and mutations are handled by local 
 - [ ] Add few tests
 - [ ] Adapt for smartphones
 - [ ] Lazy load pizzas with infinite scroll
+- [ ] Measure performance metrics with Lighthouse
+- [ ] Minimal SEO optimization
 
 ##### Normal
 
