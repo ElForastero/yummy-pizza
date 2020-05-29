@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18f4d5297adfa278462ebcf802b32776",
+    "revision": "6400f442e10fd27a7b604a203b783e1e",
     "url": "/yummy-pizza/index.html"
   },
   {
-    "revision": "3c237ffc4ee721e76871",
+    "revision": "1fb7c51ab9f355b9a17f",
     "url": "/yummy-pizza/static/css/2.3c76a222.chunk.css"
   },
   {
-    "revision": "f9979e08d363872adb6d",
+    "revision": "5aa8c754230db1dd2d5e",
     "url": "/yummy-pizza/static/css/3.544f84a7.chunk.css"
   },
   {
-    "revision": "54d870c0d92d631b522b",
+    "revision": "483b129395288f88e101",
     "url": "/yummy-pizza/static/css/main.37423c68.chunk.css"
   },
   {
-    "revision": "3c237ffc4ee721e76871",
-    "url": "/yummy-pizza/static/js/2.ecc2de72.chunk.js"
+    "revision": "1fb7c51ab9f355b9a17f",
+    "url": "/yummy-pizza/static/js/2.60434f33.chunk.js"
   },
   {
     "revision": "c97fb91e7dd1c7b19ae67fb152a2e6b2",
-    "url": "/yummy-pizza/static/js/2.ecc2de72.chunk.js.LICENSE.txt"
+    "url": "/yummy-pizza/static/js/2.60434f33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9979e08d363872adb6d",
-    "url": "/yummy-pizza/static/js/3.0f0bb875.chunk.js"
+    "revision": "5aa8c754230db1dd2d5e",
+    "url": "/yummy-pizza/static/js/3.4c40cda3.chunk.js"
   },
   {
-    "revision": "54d870c0d92d631b522b",
-    "url": "/yummy-pizza/static/js/main.a74187bc.chunk.js"
+    "revision": "483b129395288f88e101",
+    "url": "/yummy-pizza/static/js/main.0321ea73.chunk.js"
   },
   {
-    "revision": "186c866cc23db5c4c81c",
-    "url": "/yummy-pizza/static/js/runtime-main.2a0522c7.js"
+    "revision": "12026b5f5c7d26a5c8a5",
+    "url": "/yummy-pizza/static/js/runtime-main.188b35e6.js"
   },
   {
     "revision": "07600dd93673da69a9d9eded2a226de0",
