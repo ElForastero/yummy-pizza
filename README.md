@@ -2,11 +2,12 @@
 
 Pizza ordering interface assignment from Innoscripta LLC.
 
-Written with:
+Built with:
 
 - React
 - TypeScript
 - Apollo & GraphQL
+- CSS modules
 - react-spring for animations
 
 Pretty accessible and can be used with keyboard-only navigation.o
