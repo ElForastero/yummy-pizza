@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/yummy-pizza/static/css/main.37423c68.chunk.css",
+    "main.css": "/yummy-pizza/static/css/main.4ca9f119.chunk.css",
     "main.js": "/yummy-pizza/static/js/main.0321ea73.chunk.js",
     "main.js.map": "/yummy-pizza/static/js/main.0321ea73.chunk.js.map",
     "runtime-main.js": "/yummy-pizza/static/js/runtime-main.188b35e6.js",
@@ -12,11 +12,11 @@
     "static/js/3.4c40cda3.chunk.js": "/yummy-pizza/static/js/3.4c40cda3.chunk.js",
     "static/js/3.4c40cda3.chunk.js.map": "/yummy-pizza/static/js/3.4c40cda3.chunk.js.map",
     "index.html": "/yummy-pizza/index.html",
-    "precache-manifest.897dc110911c499b3786e9c2f7a5fe2f.js": "/yummy-pizza/precache-manifest.897dc110911c499b3786e9c2f7a5fe2f.js",
+    "precache-manifest.24d4fe00dbec365836924514d343768e.js": "/yummy-pizza/precache-manifest.24d4fe00dbec365836924514d343768e.js",
     "service-worker.js": "/yummy-pizza/service-worker.js",
     "static/css/2.3c76a222.chunk.css.map": "/yummy-pizza/static/css/2.3c76a222.chunk.css.map",
     "static/css/3.544f84a7.chunk.css.map": "/yummy-pizza/static/css/3.544f84a7.chunk.css.map",
-    "static/css/main.37423c68.chunk.css.map": "/yummy-pizza/static/css/main.37423c68.chunk.css.map",
+    "static/css/main.4ca9f119.chunk.css.map": "/yummy-pizza/static/css/main.4ca9f119.chunk.css.map",
     "static/js/2.60434f33.chunk.js.LICENSE.txt": "/yummy-pizza/static/js/2.60434f33.chunk.js.LICENSE.txt",
     "static/media/arrow-left.07600dd9.svg": "/yummy-pizza/static/media/arrow-left.07600dd9.svg",
     "static/media/arrow-right.62ed779e.svg": "/yummy-pizza/static/media/arrow-right.62ed779e.svg",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.188b35e6.js",
     "static/css/2.3c76a222.chunk.css",
     "static/js/2.60434f33.chunk.js",
-    "static/css/main.37423c68.chunk.css",
+    "static/css/main.4ca9f119.chunk.css",
     "static/js/main.0321ea73.chunk.js"
   ]
 }

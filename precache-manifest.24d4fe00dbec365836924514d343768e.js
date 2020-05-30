@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6400f442e10fd27a7b604a203b783e1e",
+    "revision": "3fd364c42d43376b361006c298726b49",
     "url": "/yummy-pizza/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yummy-pizza/static/css/3.544f84a7.chunk.css"
   },
   {
-    "revision": "483b129395288f88e101",
-    "url": "/yummy-pizza/static/css/main.37423c68.chunk.css"
+    "revision": "e5520f5730f0280367eb",
+    "url": "/yummy-pizza/static/css/main.4ca9f119.chunk.css"
   },
   {
     "revision": "1fb7c51ab9f355b9a17f",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yummy-pizza/static/js/3.4c40cda3.chunk.js"
   },
   {
-    "revision": "483b129395288f88e101",
+    "revision": "e5520f5730f0280367eb",
     "url": "/yummy-pizza/static/js/main.0321ea73.chunk.js"
   },
   {
