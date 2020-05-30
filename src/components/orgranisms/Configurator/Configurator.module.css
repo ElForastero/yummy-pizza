@@ -43,6 +43,7 @@
   font-weight: 600;
   font-size: var(--fs2);
   color: var(--primary-700);
+  background-color: transparent;
 }
 
 .active {
