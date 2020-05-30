@@ -32,9 +32,12 @@ It doesn't have any backend. All the queries and mutations are handled by local 
 - [ ] Make `Stepper` lazy
 - [ ] Add some micro animations
 - [ ] Refactor container/presentational components
+- [ ] Accept href in button component
 
 ##### UX
 
 - [ ] Improve accessibility
+  - [ ] Autofocus primary action control in pizza configurator
+  - [ ] Fix tab navigation on "My Order"
 - [ ] Internationalization
 - [ ] Global currency selector
